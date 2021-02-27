@@ -1,0 +1,34 @@
+{
+    "chat_groups": [],
+    "chat":{},
+    "users": [
+        ///
+        ///
+        /// basic user
+        {
+            "name": "string",
+            "age": "number",
+            "profile_picture": "string",
+            "date_created": "string",
+            "height_feet": "number",
+            "height_inches": "number",
+            "ethnicity": "string",
+            "body": "string",
+            "status": "string",
+            "looking_for": "string",
+            ///
+            ///
+            /// inbox  collection
+            "inbox": [
+                {
+                    "id":"string",
+                    "message":"string",
+                    "type":"string",
+                    "date_sent":"number",
+                    "sent_by":"string",
+                    "isViewed": "string"
+                }
+            ]
+        }
+    ],
+}
